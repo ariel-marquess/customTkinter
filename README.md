@@ -1,6 +1,6 @@
 # Criando uma interface gráfica no Debian
 
-O presente trabalho tem como objetivo a criação de uma interface gráfica em uma máquina virtual com sistema operacional Debian "só texto" (versão ). Tenha em mente que o código em si não é nada complexo; utilizo somente alguns componentes básicos da biblioteca Custom Tkinter, do Python, a fim de criar um programa simples para teste da interface gráfica.
+O presente trabalho tem como objetivo a criação de uma interface gráfica em uma máquina virtual com sistema operacional Debian "só texto" (versão 6.12.74). Tenha em mente que o código em si não é nada complexo; utilizo somente alguns componentes básicos da biblioteca Custom Tkinter, do Python, a fim de criar um programa simples para teste da interface gráfica.
 ## Preparando a máquina virtual
 
 ### 1. Instale o Python em sua máquina virtual
