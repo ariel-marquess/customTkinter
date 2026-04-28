@@ -1,32 +1,76 @@
+import os
 import customtkinter as ctk
+from PIL import Image
 
 
 class MeuSistema(ctk.CTk):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
 
-        # 1. Configuração da Janela (Root)
         self.geometry("800x600")
-        self.grid_columnconfigure(1, weight=1)  # Coluna do conteúdo expande
-        self.grid_rowconfigure(0, weight=1)  # Linha única ocupa tudo
+        self.title("Drive Docs")
 
-        # 2. Sidebar (Frame Lateral)
-        self.sidebar = ctk.CTkFrame(self, width=200, corner_radius=0)
-        self.sidebar.grid(row=0, column=0, sticky="nsew")
+        # Adicionando a imagem da página de login
+        try:
+            current_path = os.path.join(os.path.dirname(os.path.relpath(__file__)), "..", "images", "file.png")
 
-        # 3. Widgets da Sidebar
-        self.label_titulo = ctk.CTkLabel(self.sidebar, text="Menu", font=("Roboto", 20, "bold"))
-        self.label_titulo.pack(pady=20)
+            self.image = ctk.CTkImage(
+                light_image=Image.open(current_path),
+                dark_image=Image.open(current_path),
+                size=(150, 150)
+            )
 
-        self.btn_home = ctk.CTkButton(self.sidebar, text="Dashboard")
-        self.btn_home.pack(pady=10, padx=10)
+            self.label_image = ctk.CTkLabel(self, image=self.image, text="")
+        except Exception as e:
+            self.label_image = ctk.CTkLabel(self, text="ERRO: Não foi possível encontrar a imagem.")
+        finally:
+            self.label_image.grid(row=1, column=0, padx=20, pady=10, columnspan=3, sticky="nsew")
 
-        # 4. Área de Conteúdo (Main Frame)
-        self.main_content = ctk.CTkFrame(self, fg_color="transparent")
-        self.main_content.grid(row=0, column=1, padx=20, pady=20, sticky="nsew")
+        # Configurando grid
+        self.grid_columnconfigure(0, weight=1)
+        self.grid_columnconfigure(1, weight=3)
+        self.grid_columnconfigure(2, weight=1)
 
-        self.welcome_msg = ctk.CTkLabel(self.main_content, text="Bem-vindo ao Sistema")
-        self.welcome_msg.pack()
+        self.grid_rowconfigure(0, weight=1)
+        self.grid_rowconfigure(4, weight=1)
+
+        # Vamos colocar todos os labels e entrys (além do botão de entrar) em um container, isso deixará os componentes centralizados em relação à página
+        self.container = ctk.CTkFrame(self, fg_color="transparent")
+        self.container.grid(row=3, column=0, padx=200, pady=10, columnspan=3, sticky="ew")
+        self.container.grid_columnconfigure(0, weight=1)
+
+        # Adicionando os componentes para inserção da identificação de usuário
+        self.label_login = ctk.CTkLabel(self.container, text="Login")
+        self.label_login.grid(row=0, column=0, pady=0, sticky="w")
+
+        self.entry_login = ctk.CTkEntry(self.container)
+        self.entry_login.grid(row=1, column=0, pady=5, sticky="ew")
+
+        # Adicionando os componentes para inserção da senha
+        self.label_password = ctk.CTkLabel(self.container, text="Senha")
+        self.label_password.grid(row=3, column=0, pady=(10, 0), sticky="w")
+
+        self.container_password = ctk.CTkFrame(self.container, fg_color="transparent")
+        self.container_password.grid(row=4, column=0, pady=5, sticky="nsew")
+
+        self.container_password.grid_columnconfigure(0, weight=1)
+        self.container_password.grid_columnconfigure(1, weight=0)
+
+        self.entry_password = ctk.CTkEntry(self.container_password, show="*")
+        self.entry_password.grid(row=0, column=0, padx=(0, 5), sticky="ew")
+
+        self.button_password = ctk.CTkButton(self.container_password, text="", fg_color="#2b2f76", width=50,
+                                             command=self.reveal_password)
+        self.button_password.grid(row=0, column=1)
+
+        # Adicionando botões
+        self.button_enter = ctk.CTkButton(self.container, text="Entrar", fg_color="#2b2f76",
+                                          command=self.enter)  # Botão de 'entrar'
+        self.button_enter.grid(row=6, column=0, pady=20)
+
+        self.button_create = ctk.CTkButton(self, text="Não tem conta?", fg_color="#2b2f76",
+                                           command=self.create_account)  # Botão de 'criar conta'
+        self.button_create.grid(row=5, column=2, padx=20, pady=20, sticky="se")
 
 
 if __name__ == "__main__":
