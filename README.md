@@ -15,7 +15,7 @@ O presente trabalho tem como objetivo a criação de uma interface gráfica em u
 
 * Baixe o CutomTkinter: execute [ apt install python3-tk ].
 * Baixe o CustomTkinter globalmente no sistema: execute [ pip3 install customtkinter --break-system-packages ].
-* Baixe também a biblioteca Pillow (para carregamento de imagens): execute [ pip3 install pillow ].
+* Baixe também a biblioteca Pillow (para carregamento de imagens): execute [ apt install python3-pil ].
 
 ### 3. Instale o servidor gráfico que irá 'abrir a janela'
 
