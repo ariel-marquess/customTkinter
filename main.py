@@ -1,4 +1,3 @@
-import os
 import customtkinter as ctk
 from PIL import Image
 
@@ -12,11 +11,9 @@ class MeuSistema(ctk.CTk):
 
         # Adicionando a imagem da página de login
         try:
-            current_path = os.path.join(os.path.dirname(os.path.relpath(__file__)), "..", "images", "file.png")
-
             self.image = ctk.CTkImage(
-                light_image=Image.open(current_path),
-                dark_image=Image.open(current_path),
+                light_image=Image.open("images/file.png"),
+                dark_image=Image.open("images/file.png"),
                 size=(150, 150)
             )
 
