@@ -56,17 +56,14 @@ class MeuSistema(ctk.CTk):
         self.entry_password = ctk.CTkEntry(self.container_password, show="*")
         self.entry_password.grid(row=0, column=0, padx=(0, 5), sticky="ew")
 
-        self.button_password = ctk.CTkButton(self.container_password, text="", fg_color="#2b2f76", width=50,
-                                             command=self.reveal_password)
+        self.button_password = ctk.CTkButton(self.container_password, text="", fg_color="#2b2f76", width=50)
         self.button_password.grid(row=0, column=1)
 
         # Adicionando botões
-        self.button_enter = ctk.CTkButton(self.container, text="Entrar", fg_color="#2b2f76",
-                                          command=self.enter)  # Botão de 'entrar'
+        self.button_enter = ctk.CTkButton(self.container, text="Entrar", fg_color="#2b2f76")  # Botão de 'entrar'
         self.button_enter.grid(row=6, column=0, pady=20)
 
-        self.button_create = ctk.CTkButton(self, text="Não tem conta?", fg_color="#2b2f76",
-                                           command=self.create_account)  # Botão de 'criar conta'
+        self.button_create = ctk.CTkButton(self, text="Não tem conta?", fg_color="#2b2f76")  # Botão de 'criar conta'
         self.button_create.grid(row=5, column=2, padx=20, pady=20, sticky="se")
 
 
