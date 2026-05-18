@@ -12,7 +12,7 @@ class MeuSistema(ctk.CTk):
 
         # Adicionando a imagem da página de login
         try:
-            currentFile = os.path.dirname(os.path.relpath(__file__))
+            currentFile = os.path.dirname(os.path.abspath(__file__))
             imageFile = os.path.join(currentFile, "images/file.png")
 
             self.image = ctk.CTkImage(
