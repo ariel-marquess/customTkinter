@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ead1e3fc-0d76-4c0b-91fa-e8cc8cc3d891" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="5.150079247888362E-190" />
+      <entry key="MS500" value="2.411617044853549E-38" />
+      <entry key="S2" value="6.640624293060485E-10" />
+      <entry key="S5" value="3.64467883864056E-4" />
+      <entry key="S10" value="0.04140917434007478" />
+      <entry key="S30" value="2.2585378531322546" />
+      <entry key="S60" value="8.782039842669422" />
+      <entry key="M2" value="19.481060694133433" />
+      <entry key="M5" value="33.27267779990386" />
+      <entry key="M10" value="40.24519525495793" />
+      <entry key="M15" value="42.9420186947189" />
+      <entry key="M30" value="45.85370690228461" />
+      <entry key="H1" value="47.39621798792452" />
+      <entry key="H2" value="48.190279353619104" />
+      <entry key="H4" value="48.59316046246138" />
+      <entry key="D1" value="48.931916647162254" />
+      <entry key="W1" value="48.99026700429896" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000007240475" />
+      <entry key="S5" value="1.0002942704104711" />
+      <entry key="S10" value="1.0240161371901573" />
+      <entry key="S30" value="1.5351133364044591" />
+      <entry key="S60" value="2.311573797148065" />
+      <entry key="M2" value="3.196951244730871" />
+      <entry key="M5" value="4.108811372867655" />
+      <entry key="M10" value="4.518395668781373" />
+      <entry key="M15" value="4.670217683059" />
+      <entry key="M30" value="4.830558127548727" />
+      <entry key="H1" value="4.914103245792983" />
+      <entry key="H2" value="4.956752745586085" />
+      <entry key="H4" value="4.978301028117203" />
+      <entry key="D1" value="4.996372986598757" />
+      <entry key="W1" value="4.999481596941101" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="8.04288102800364E-4" />
+      <entry key="MS500" value="0.2404818636661937" />
+      <entry key="S2" value="0.7002781616405067" />
+      <entry key="S5" value="0.8678012762826562" />
+      <entry key="S10" value="0.9949121927831733" />
+      <entry key="S30" value="3.745607038687178" />
+      <entry key="S60" value="11.037244686220568" />
+      <entry key="M2" value="22.623872825414082" />
+      <entry key="M5" value="37.34684054965344" />
+      <entry key="M10" value="44.743070427811595" />
+      <entry key="M15" value="47.597742095989275" />
+      <entry key="M30" value="50.676581575425026" />
+      <entry key="H1" value="52.30636457075056" />
+      <entry key="H2" value="53.1450242686714" />
+      <entry key="H4" value="53.570450102774096" />
+      <entry key="D1" value="53.92812002287447" />
+      <entry key="W1" value="53.98972434538071" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3CofhH2213gHFDHxk623N6dAyfw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/ariel_marquess/Documentos/Ariel_Marques/Redes/Redes_II/customTkinter",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.14 (customTkinter)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ead1e3fc-0d76-4c0b-91fa-e8cc8cc3d891" name="Changes" comment="" />
+      <created>1777056960128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777056960128</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/customTkinter$main.coverage" NAME="main Coverage Results" MODIFIED="1779101987290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

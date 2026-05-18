@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
+<<<<<<< HEAD
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.14 (customTkinter) (3)" jdkType="Python SDK" />
+=======
+    <content url="file://$MODULE_DIR$/../customTkinter">
+      <excludeFolder url="file://$MODULE_DIR$/../customTkinter/.venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.14 (custtomThinker)" jdkType="Python SDK" />
+>>>>>>> c32f6e87569c0987c10773119e11dc48e265b181
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

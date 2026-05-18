@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/customTkinter.iml" filepath="$PROJECT_DIR$/.idea/customTkinter.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/custtomThinker.iml" filepath="$PROJECT_DIR$/.idea/custtomThinker.iml" />
+>>>>>>> c32f6e87569c0987c10773119e11dc48e265b181
     </modules>
   </component>
 </project>

@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.14 (customTkinter) (3)" project-jdk-type="Python SDK" />
+=======
+  <component name="Black">
+    <option name="sdkName" value="Python 3.14 (custtomThinker)" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.14 (custtomThinker)" project-jdk-type="Python SDK" />
+>>>>>>> c32f6e87569c0987c10773119e11dc48e265b181
 </project>
